@@ -1,0 +1,46 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  border: 0;
+  font-weight: bold;
+}
+
+.navbar {
+  opacity: 100%;
+  border-bottom: orange 5px solid;
+}
+
+#home-section {
+  background: url(../img/bg-3.jpg);
+  filter: grayscale(90%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#home-section .overlay {
+  position: absolute;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#home-section .hero {
+  padding-top: 650px;
+}
+
+#album-promo {
+  border: 5px orange solid;
+  height: 350px;
+  margin: 25px;
+  background-color: #222;
+}
+
+#about-section .about-bingo {
+  width: 200px;
+  height: auto;
+}
