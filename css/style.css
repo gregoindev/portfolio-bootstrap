@@ -1,40 +1,35 @@
 body {
   background-color: #333;
   color: white;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  border: 0;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .navbar {
   opacity: 100%;
-  border-bottom: orange 5px solid;
+}
+
+.navbar-brand h3 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 1.5rem;
 }
 
 #home-section {
-  background: url(../img/bg-3.jpg);
-  filter: grayscale(90%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   min-height: 100vh;
 }
 
-#home-section .overlay {
-  position: absolute;
-  width: 100%;
-  opacity: 0.8;
-}
-
 #home-section .hero {
-  padding-top: 650px;
+  padding-top: 600px;
 }
 
 #album-promo {
   border: 5px orange solid;
+  border-radius: 7px;
   height: 350px;
   margin: 25px;
   background-color: #222;
